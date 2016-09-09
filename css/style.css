@@ -1,0 +1,97 @@
+body {
+    font-family: "Source Code Pro", "Helvetica Neue", Helvetica, 游ゴシック, 游ゴシック体, "Yu Gothic", YuGothic, Arial, Verdana, "Adobe Blank", sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    color: #333e4d;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333e4d;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: #333e4d;
+}
+
+a:hover {
+    color: #333e4d;
+}
+
+nav {
+    margin-bottom: 44px;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.portofolio-title {
+    font-weight: bold;
+    padding: 65px 0;
+    letter-spacing: 0.05em;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+.menu li.active:after {
+    width: 100%;
+}
+
+.menu li:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #a7eaff;
+    -ms-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.sub-title {
+    margin: 24px 0;
+}
+
+.social-link a {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 70px 0;
+}
+
+.copyright {
+    font-size: 11px;
+}
