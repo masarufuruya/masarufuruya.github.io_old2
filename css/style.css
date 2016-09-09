@@ -1,5 +1,7 @@
 body {
     font-family: "Source Code Pro", "Helvetica Neue", Helvetica, 游ゴシック, 游ゴシック体, "Yu Gothic", YuGothic, Arial, Verdana, "Adobe Blank", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #333e4d;
 }
 
 h1 {
@@ -21,16 +23,16 @@ ul li {
     list-style: none;
 }
 
-a {
-    color: #333e4d;
-}
-
-a:hover {
+a, a:hover, a:visited, a:active {
     color: #333e4d;
 }
 
 nav {
     margin-bottom: 44px;
+}
+
+textarea {
+    resize: none;
 }
 
 .wrapper {
@@ -41,7 +43,6 @@ nav {
 .portofolio-title {
     font-weight: bold;
     padding: 65px 0;
-    letter-spacing: 0.05em;
 }
 
 .menu {
@@ -80,6 +81,7 @@ nav {
 
 .sub-title {
     margin: 24px 0;
+    font-weight: bold;
 }
 
 .social-link a {
@@ -94,4 +96,52 @@ footer {
 
 .copyright {
     font-size: 12px;
+}
+
+.social-links {
+    margin: 20px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.icon {
+    margin: 0 5px;
+}
+
+.social-button li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 12px;
+}
+
+.articles {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.articles article {
+    margin-bottom: 30px;
+}
+
+.article-image {
+    margin-bottom: 30px;
+}
+
+.article-image img {
+    width: 100%;
+    box-shadow: 5px 5px 4px 0px #aaa;
+}
+
+.contact-btn {
+    margin-top: 10px;
+}
+
+.contact-btn input {
+    color: #fff;
+}
+
+.contact-btn input:hover {
+    color: #fff;
 }

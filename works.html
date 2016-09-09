@@ -11,11 +11,125 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700,900" rel="stylesheet">
   </head>
   <body>
-    <img src="http://66.media.tumblr.com/b10b969559d545bd638ee05ecce03ea2/tumblr_nv4x3cQnui1trs15do1_1280.png">
-    <p>ルックブックをイメージした可変グリッドレイアウトのtumblrテーマ「Sugar」をリリースしました。あなたのコレクションを、どんなデバイス上でも美しくディスプレイします。
-
-</p>
+      <div class="container">
+        <header>
+          <h1 class="portofolio-title text-center">
+            <a href="index.html">Masaru Furuya</a>
+          </h1>
+        </header>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">About</a></li>
+            <li class="active"><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+  
+        <div class="wrapper">
+          <main class="articles">
+            <article>
+              <div class="article-image">
+                <a href="#">
+                  <img src="https://placehold.jp/600x400.png">
+                </a>
+              </div>
+              <p>メッセージボードは名前と内容を入力して送信すると、用意されたボードにメッセージが書き込まれる単純なWebアプリです。</p>
+            </article>
+            <article>
+              <div class="article-image">
+                <a href="#">
+                  <img src="https://placehold.jp/600x400.png">
+                </a>
+              </div>
+              <p>ユーザーが新規登録でき、つぶやきを投稿できるTwitterクローンです。</p>
+            </article>
+            <article>
+              <div class="article-image">
+                <a href="#">
+                  <img src="https://placehold.jp/600x400.png">
+                </a>
+              </div>
+              <p>楽天APIを利用したモノ検索サービスです。</p>
+            </article>
+            <article>
+              <div class="article-image">
+                <a href="#">
+                  <img src="https://placehold.jp/600x400.png">
+                </a>
+              </div>
+              <p>学習内容の総まとめとなるオリジナルサービスです</p>
+            </article>
+          </main>
+        </div>
+      </div>
+      <footer>
+        <p class="copyright"><small>&copy; Masaru Furuya</small></p>
+        
+        <div class="social-links">
+          
+          <a class="icon" href="https://www.facebook.com/masaru.furuya.1">
+            <i class="fa fa-facebook"></i>  
+          </a>
+          
+          <a class="icon" href="https://twitter.com/enzerubank">
+            <i class="fa fa-twitter"></i>
+          </a>
+          
+          <a class="icon" href="https://www.instagram.com/masarufuruya/">
+            <i class="fa fa-instagram"></i>
+          </a>
+          
+          <a class="icon" href="https://github.com/masarufuruya">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        
+        <ul class="social-button">
+          <li>
+            <div class="fb-like" data-href="https://masarutest.github.io/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+          </li>
+          <li>
+            <a class="twitter-follow-button" data-lang="en" data-show-count="false" data-show-screen-name="false" href="https://twitter.com/enzerubank">Follow</a>
+          </li>
+        </ul>
+      </footer>
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1707514219527639";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+      <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+       
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+       
+        return t;
+      }(document, "script", "twitter-wjs"));</script>
+      <script src="https://use.fontawesome.com/85c52be7dc.js"></script>
+      <script>
+        $(function() {
+          $('.menu li:not(".active")').mouseover(function() {
+            $(this).addClass('active');
+          }).mouseout(function() {
+            $(this).removeClass('active');
+          });
+        });
+      </script>
   </body>
 </html>
