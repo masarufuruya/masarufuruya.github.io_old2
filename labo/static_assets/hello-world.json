@@ -10,41 +10,122 @@
 		{
 			"id":"Kitchen",
 			"photopanos":[
-				{"src":"office.jpg"}
+				{"src":"IMAGE_1705.jpg"}
 			],
 			"navs":[
-				{"to":"Patio","txt":"Work","rotateY":-55},
-				{"to":"Backyard","txt":"Inquiry","rotateY":45}
+				{"to":"Patio","txt":"","rotateY":-55,"iconTranslateY":0, "icon":"work.png"},
+				{"to":"Backyard","txt":"","rotateY":165,"iconTranslateY":0, "icon":"inquiry.png"},
+				{"to":"City","txt":"","rotateY":200,"iconTranslateY":0, "icon":"yoyogi.png"}
 			],
 			"infos":[
 				{
 					"card":[
-						{"type":"image","src":"balloon_shimada_profile.png","ratio":1}
+						{"type":"image","src":"modal2.png","ratio":1}
 					],
-					"icon":"icons/balloon_shimada.png",
-					"iconWidth":2,
-					"iconHeight":2,
+					"icon":"icons/icon01.png",
+					"iconWidth":1,
+					"iconHeight":1,
 					"rotateY":0,
-					"iconTranslateX":1.9,
-					"iconTranslateY":3,
-					"iconTranslateZ":-10,
-					"cardTranslateX":1.5,
+					"iconTranslateX":-3,
+					"iconTranslateY":-4.5,
+					"iconTranslateZ":-5,
+					"cardTranslateX":-2,
+					"cardTranslateY":-3,
+					"cardTranslateZ":-3,
+					"backgroundColor":"transparent"
+				},
+				{
+					"card":[
+						{"type":"image","src":"modal2.png","ratio":1}
+					],
+					"icon":"icons/icon02.png",
+					"iconWidth":1,
+					"iconHeight":1,
+					"rotateY":45,
+					"iconTranslateX":-6.5,
+					"iconTranslateY":-2,
+					"iconTranslateZ":-3,
+					"cardTranslateX":-6,
+					"cardTranslateY":-2,
+					"cardTranslateZ":-3,
+					"backgroundColor":"transparent"
+				},
+				{
+					"card":[
+						{"type":"image","src":"modal2.png","ratio":1}
+					],
+					"icon":"icons/balloon01.png",
+					"iconWidth":1,
+					"iconHeight":1,
+					"rotateY":0,
+					"iconTranslateX":0,
+					"iconTranslateY":1.2,
+					"iconTranslateZ":-5,
+					"cardTranslateX":0,
 					"cardTranslateY":1,
 					"cardTranslateZ":-4,
 					"backgroundColor":"transparent"
 				},
 				{
 					"card":[
-						{"type":"image","src":"balloon_yamakawa_profile.png","ratio":1}
+						{"type":"image","src":"modal2.png","ratio":1}
 					],
-					"icon":"icons/balloon_yamakawa.png",
+					"icon":"icons/balloon02.png",
 					"iconWidth":2,
 					"iconHeight":2,
 					"rotateY":0,
-					"iconTranslateX":-3.8,
-					"iconTranslateY":4.1,
-					"iconTranslateZ":-10,
-					"cardTranslateX":-1.5,
+					"iconTranslateX":-5,
+					"iconTranslateY":2.5,
+					"iconTranslateZ":-8,
+					"cardTranslateX":-3,
+					"cardTranslateY":1,
+					"cardTranslateZ":-4,
+					"backgroundColor":"transparent"
+				},
+				{
+					"card":[
+						{"type":"image","src":"modal2.png","ratio":1}
+					],
+					"icon":"icons/balloon03.png",
+					"iconWidth":2,
+					"iconHeight":2,
+					"rotateY":0,
+					"iconTranslateX":3.7,
+					"iconTranslateY":2.3,
+					"iconTranslateZ":-8,
+					"cardTranslateX":2.4,
+					"cardTranslateY":1,
+					"cardTranslateZ":-4,
+					"backgroundColor":"transparent"
+				},
+				{
+					"card":[
+						{"type":"image","src":"modal2.png","ratio":1}
+					],
+					"icon":"icons/balloon04.png",
+					"iconWidth":2,
+					"iconHeight":2,
+					"rotateY":-90,
+					"iconTranslateX":-1,
+					"iconTranslateY":2.3,
+					"iconTranslateZ":-8,
+					"cardTranslateX":-1,
+					"cardTranslateY":1,
+					"cardTranslateZ":-4,
+					"backgroundColor":"transparent"
+				},
+				{
+					"card":[
+						{"type":"image","src":"modal2.png","ratio":1}
+					],
+					"icon":"icons/balloon01.png",
+					"iconWidth":2,
+					"iconHeight":2,
+					"rotateY":-135,
+					"iconTranslateX":-1.5,
+					"iconTranslateY":3.2,
+					"iconTranslateZ":-8,
+					"cardTranslateX":-1,
 					"cardTranslateY":1,
 					"cardTranslateZ":-4,
 					"backgroundColor":"transparent"
@@ -58,41 +139,41 @@
 		{
 			"id":"Patio",
 			"photopanos":[
-				{"src":"office2.jpg"}
+				{"src":"IMAGE_1711.jpg"}
 			],
 			"navs":[
-				{"to":"Kitchen","txt":"Member","rotateY":165},
-				{"to":"Backyard","txt":"Inquiry","rotateY":45}
+				{"to":"Kitchen","txt":"","rotateY":-45,"icon":"eishis.png"},
+				{"to":"Backyard","txt":"","rotateY":25,"icon":"inquiry.png"}
 			],
 			"infos":[
 				{
 					"card":[
-						{"type":"image","src":"balloon_shimmada_work_profile.png","ratio":1}
+						{"type":"image","src":"modal2.png","ratio":1}
 					],
-					"icon":"icons/balloon_work_shimada.png",
-					"iconWidth":2,
-					"iconHeight":2,
+					"icon":"icons/balloon01.png",
+					"iconWidth":3,
+					"iconHeight":3,
 					"rotateY":0,
-					"iconTranslateX":0.5,
-					"iconTranslateY":4,
-					"iconTranslateZ":-10,
+					"iconTranslateX":2,
+					"iconTranslateY":1.7,
+					"iconTranslateZ":-12,
+					"cardTranslateX":1,
 					"cardTranslateY":1,
 					"backgroundColor":"transparent"
 				},
 				{
 					"card":[
-						{"type":"image","src":"balloon_shinnoki_work_profile.png","ratio":1}
+						{"type":"image","src":"modal2.png","ratio":1}
 					],
-					"icon":"icons/balloon_work_shinnoki.png",
+					"icon":"icons/balloon04.png",
 					"iconWidth":2,
 					"iconHeight":2,
-					"rotateY":60,
-					"iconTranslateX":-2.5,
-					"iconTranslateY":4.5,
-					"iconTranslateZ":-4,
-					"cardTranslateX":-2,
-					"cardTranslateY":3,
-					"cardTranslateZ":-3,
+					"rotateY":0,
+					"iconTranslateX":5.5,
+					"iconTranslateY":1.7,
+					"iconTranslateZ":-12,
+					"cardTranslateX":2,
+					"cardTranslateY":1,
 					"backgroundColor":"transparent"
 				}
 			],
@@ -103,27 +184,80 @@
 		},
 		{
 			"id":"Backyard",
+			"navs":[
+				{"to":"Kitchen","txt":"","rotateY":185,"icon":"eishis.png"},
+				{"to":"Patio","txt":"","rotateY":45,"icon":"work.png"}
+			],
 			"photopanos":[
-				{"src":"1004-fraser-11-low.jpg"}
+				{"src":"IMAGE_1600.jpg"}
 			],
             "infos":[
                 {
 	                "card":[
-                        {"type":"image","src":"welcome.jpg","ratio":1.9,"borderWidth":0},
-                        {"type":"header","txt":"Welcomme Eishis!"},
-                        {"type":"content","txt":"Please input your contact information","textColor":"#000000","fontSize":0.12},
+                        {"type":"image","src":"application.png","ratio":1.9,"borderWidth":0},
                         {"type":"row","buttons":[
 													{"txt":"Facebook Message","uri":"https://m.me/eishis2"}
                         ]}
 	                ],
+									"stick": true,
 	                "width":3,
 	                "backgroundColor":"#ffffffee",
 	                "rotateY":0,
 	                "rotateX":5
-                }
+                },
+								{
+	                "card":[
+												{"type":"form"}
+	                ],
+									"stick": true,
+	                "width":3,
+	                "backgroundColor":"#ffffffee",
+	                "rotateY":-45,
+	                "rotateX":5
+                },
+								{
+									"card":[
+											{"type":"image","src":"sns_1.png","ratio":7.8,"borderWidth":0},
+											{"type":"image_txt","src":"sns_3.png","ratio":3.2,"borderWidth":0,"id":1},
+											{"type":"image_txt","src":"sns_3.png","ratio":3.2,"borderWidth":0,"id":2},
+											{"type":"image_txt","src":"sns_3.png","ratio":3.2,"borderWidth":0,"id":3}
+									],
+									"stick": true,
+									"width":3.5,
+									"backgroundColor":"transparent",
+									"rotateY":90,
+									"rotateX":5
+								}
             ],
             "photos":[
             ],
+			"preloads":[
+			]
+		},
+		{
+			"id":"City",
+			"navs":[
+				{"to":"Kitchen","txt":"","rotateY":-80,"icon":"eishis.png"},
+				{"to":"Patio","txt":"","rotateY":-100,"icon":"work.png"}
+			],
+			"photopanos":[
+				{"src":"IMAGE_1556.jpg"}
+			],
+						"infos":[
+							{
+								"card":[
+									{"type":"image","src":"modal2.png","ratio":1}
+								],
+								"icon":"icons/icon01.png",
+								"iconWidth":1,
+								"iconHeight":1,
+								"rotateY":30,
+								"iconTranslateZ":-15,
+								"backgroundColor":"transparent"
+							}
+						],
+						"photos":[
+						],
 			"preloads":[
 			]
 		}
